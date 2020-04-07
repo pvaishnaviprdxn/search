@@ -47,13 +47,50 @@
   <div class="container">
     <!--header section start-->
     <header>
-        <h1>Search operation</h1>
+        <h1>Welcome to movies.com</h1>
     </header>
     <!--header section start-->
     <!--main section start-->
     <main>
-        
-    </section>
+        <section>
+            <div class = "wrapper">
+                <div class = "list">
+                    <table id = "dlist">
+                        <thead>
+                            <th>Movie</th>
+                            <th>Release Date</th>
+                            <th>Actor</th>
+                            <th>Producer</th>
+                        </thead>
+                        <tbody id = "movielist">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class = "wrapper">
+                <div class = "search-bar">
+                  <input type = "text" id = "sear" placeholder = "Enter Movie name or Actor name">
+                  <input type = "submit" onclick = "search()">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class = "wrapper">
+                <table id = "newl">
+                    <thead>
+                        <th>Movie</th>
+                        <th>Release Date</th>
+                        <th>Actor</th>
+                        <th>Producer</th>
+                    </thead>
+                    <tbody id = nlist>
+                    </tbody>
+                </table>
+            </div>
+        </section>
     </main>
     <!--main section end-->
 
