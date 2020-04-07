@@ -106,6 +106,12 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
+h1{
+    padding: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
 
 
 
