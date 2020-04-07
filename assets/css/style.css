@@ -106,7 +106,12 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
-
+h1{
+    padding: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
 
 
 
@@ -118,9 +123,50 @@ li {
 /*=================================
   main styling starts here
 =================================*/
-
-
-
+body{
+    background-image:url(../../bg.jpg);
+    background-size: cover;
+}
+section{
+    margin: 20px 0 0 0;
+}
+.list{
+    width: 100%;
+    margin: 20px 0 0 0;
+}
+table{
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+   
+    
+}
+tr:nth-child(odd){
+    background-color: thistle;
+}
+td,th,tr{
+    border: 1px solid;
+}
+th,td{
+    padding: 6px;
+}
+.search-bar{
+    margin: 40px;
+}
+input[type=text]{
+    width: 300px;
+    height: 30px;
+}
+::placeholder{
+    padding: 10px;
+}
+input[type=submit]{
+    width: 80px;
+    height: 35px;
+    background: black;
+    color: white;
+    border: 0;
+}
 
 
 
